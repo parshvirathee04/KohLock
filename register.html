@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet'>
+    <title>KohLock - Register</title>
+</head>
+<body>
+    <section class="reg-main">
+        <div class="main-item main-item_1">
+            <div class="reg-logo">
+                <img src="img/logo1.png">
+            </div>
+            <div class="reg-form">
+                <p>Create Account</p>
+                <form id="myform" method="POST">
+                    <div class="f1">
+                        <input type="text" placeholder="Your name" name="uname" id='name1' required><p id="danger" class="unameErr"></p>
+                    </div>
+                    <div class="f2">
+                        <input type="text" placeholder="Email" name="email" id="email1" required><p id="danger" class="uemailErr"></p>
+                    </div>
+                    <div class="f3">
+                        <input type="password" placeholder="Password" name="upass1" id="pass1" required><p id="danger" class="upassErr"></p>
+                    </div>
+                    <div class="f4">
+                        <input type="password" placeholder="Confirm Password" name="upass2" id="cpass1" required>
+                    </div>
+                    <div class="but">
+                        <input type="submit" name="sub" id="sub-btn" value="Continue">
+                        <p class="reg-suc"></p>
+                    </div>
+                </form>
+                <div class="olduser">
+                    <p>Already have an account? <a href="login.html">Sign in</a></p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <script src="js/main1.js"></script>
+</body>
+</html>

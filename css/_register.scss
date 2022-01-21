@@ -1,0 +1,49 @@
+.reg-main{
+    color: white;
+    font-size: 1.2rem;
+    background-color: rgb(230, 221, 205);
+}
+
+.reg-logo{
+    background-color: rgb(230, 221, 205);
+    padding: 0.4em;
+}
+
+.reg-logo img{
+    width: 550px;
+    height: auto;
+}
+
+.reg-form{
+    background-color: black;
+    padding: 2em;
+}
+#myform >*{
+    padding: 0.7em;
+}
+
+.reg-form input{
+    width: 300px;
+    height: 3em;
+    outline: none;
+}
+
+#sub-btn{
+    height: 3em;
+    background-color: orange;
+    border: none;
+}
+
+.olduser a{
+    color: rgb(19, 243, 232);
+}
+
+#myform p.err{
+    color: red;
+    font-size: 0.8rem;
+}
+
+#myform p.reg-suc{
+    color: greenyellow;
+    // font-size: 0.9rem;
+}

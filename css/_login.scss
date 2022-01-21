@@ -1,0 +1,108 @@
+
+
+.log-main{
+    display: flex;
+    justify-content: center;
+    // align-items: center;
+    color: white;
+    font-size: 1.3rem;
+    // background-color: black;
+ 
+}
+
+.item-1{
+    flex: 60%;
+    background-color: black;
+}
+
+.item-2{
+    flex: 40%;
+}
+
+.item-2 img{
+    width: 600px;
+    height: auto;
+    max-width: 100%;
+}
+
+
+.log-logo{
+    background-color: rgb(230, 221, 205);
+    padding: 1.5em 0;
+    // background-color: orange;
+}
+
+// .log-text{
+//     padding: 1.5em 0;
+// }
+
+// .log-icon{
+//     padding: 1em 0;
+// }
+
+.log-logo img{
+    width: 450px;
+    height: auto;
+}
+.log-logo h2{
+    transition: 0.2s all;
+    color: black;
+    font-size: 3rem;
+    padding: 0.2em 0;
+}
+
+.log-form{
+    background-color: black;
+    padding: 2em 0;
+    overflow-x: auto;
+}
+
+#form1>*{
+    padding: 1em 0;
+}
+
+.log-form input{
+    transition: 0.2s all;
+    width: 300px;
+    height: 3em;
+    outline: none;
+}
+
+#log-btn{
+    background-color: orange;
+    border: none;
+}
+
+.newuser a{
+    color: lightseagreen;
+}
+
+@media (max-width: 1125px){
+    .item-2{
+        display: none;
+    }
+    .item-1{
+        flex: 100%;
+    }
+}
+
+@media (max-width: 636px){
+    .log-logo h2{
+        font-size: 2rem;
+    }
+}
+
+@media (max-width: 350px){
+
+    .log-form input{
+        width: 200px;
+        height: 2.5em;
+    }
+}
+
+@media (max-width: 200px){
+    .log-form input{
+        width: 100px;
+        height: 2em;
+    }
+}
